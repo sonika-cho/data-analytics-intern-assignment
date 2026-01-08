@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <title>Data Analytics Intern Assignment</title>
+  <script src="https://cdn.jsdelivr.net/npm/xlsx/dist/xlsx.full.min.js"></script>
+</head>
+<body>
+
+<h1>Data Analytics Intern Assignment</h1>
+<label>Time Granularity:</label>
+<select id="granularity">
+  <option value="daily">Daily</option>
+  <option value="weekly">Weekly</option>
+  <option value="monthly">Monthly</option>
+</select>
+
+<br><br>
+
+<input type="file" id="fileInput" />
+
+<p id="status">Waiting for file...</p>
+<canvas id="myChart" width="800" height="400"></canvas>
+
+
+<script src="app.js"></script>
+</body>
+</html>
